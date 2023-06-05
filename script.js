@@ -1,8 +1,8 @@
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
+let errorEl = document.getElementById("error")
+console.log(errorEl)
 let count = 0
-
-console.log(saveEl)
 
 function increment(){
     count += 1
@@ -16,7 +16,6 @@ function save(){
     count = 0
     console.log(saveAs)
 }
-
 
 
 
